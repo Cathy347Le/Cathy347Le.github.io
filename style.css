@@ -1,0 +1,21 @@
+img {
+    width: 10%;
+    /* border-radius: 5px;
+    border: 5px solid gray; */
+}
+
+.rounded-image {
+    border-radius:50%;
+    border: 5px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+/* Website inspired by http://www.belcortes.com/ */

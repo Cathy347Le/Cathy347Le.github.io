@@ -1,7 +1,9 @@
 .container{
     width: 800px;
     height: 400px;
+    margin: 0 auto;
     display: grid;
+    grid
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:    "box1 box1 box2 box3"
@@ -11,43 +13,62 @@
 }
 
 .box1{
-    border-color: 1px solid black;
+    grid-area: box1;
+    border-bottom: 2px solid silver;
 
 }
 
 .box2{
+    grid-area: box2;
+    border-left: 2px solid silver;
 
 }
 
 .box3{
+    grid-area: box3;
+    border-top: 2px solid silver;
 
 }
 
 .box4{
+    grid-area: box4;
+    border-bottom: 2px solid silver;
+    border-left: 2px solid silver;
 
 }
 
 .box5{
+    grid-area: box5;
+    border-bottom: 2px solid silver;
+    border-left: 2px solid silver;
 
 }
 
 .box6{
+    grid-area: box6;
 
 }
 
 .box7{
+    grid-area: box7;
+    border-left: 2px solid silver;
 
 }
 
 .box8{
+    grid-area: box8;
+    border-left: 2px solid silver;
 
 }
 
 .box9{
+    grid-area: box9;
+    border-bottom: 2px solid silver;
 
 }
 
 .box10{
+    grid-area: box10;
 
 }
 

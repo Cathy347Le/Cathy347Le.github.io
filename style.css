@@ -1,13 +1,66 @@
+.container{
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:    "box1 box1 box2 box3"
+                            "box1 box1 box4 box5"
+                            "box6 box7 box8 box8"
+                            "box9 box10 box8 box8"
+}
+
+.box1{
+    border-color: 1px solid black;
+
+}
+
+.box2{
+
+}
+
+.box3{
+
+}
+
+.box4{
+
+}
+
+.box5{
+
+}
+
+.box6{
+
+}
+
+.box7{
+
+}
+
+.box8{
+
+}
+
+.box9{
+
+}
+
+.box10{
+
+}
+
 img {
     width: 10%;
-    /* border-radius: 5px;
-    border: 5px solid gray; */
+    border-radius: 5px;
+    border: 5px solid gray;
 }
 
 .rounded-image {
     border-radius:50%;
     border: 5px solid gray;
-}
+} 
 
 
 

@@ -129,15 +129,11 @@ body {
   padding-top: 30px;
 }
 
-/*
-.small_pic {
-  width: 150px;
-  height: 80px;
-  padding: 20px;
+.cherry-blossom_pic,
+.tiger_pic {
+  width: 130px;
+  height: 100px;
+  padding: 10px;
 }
-
-.box-link {
-  margin: auto;
-} */
 
 /* Website inspired by http://www.belcortes.com/ */

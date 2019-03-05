@@ -7,10 +7,6 @@ body {
   min-height: 100vh;
 }
 
-/* .container {
-  display: grid;
-} */
-
 .container {
   width: 700px;
   height: 400px;
@@ -108,25 +104,12 @@ body {
   border-left: 2px solid silver;
 }
 
-/*
 .baseball_pic {
-  width: 310px;
-  height: 130px;
-  padding: 20px;
+  width: 300px;
+  height: 160px;
+  padding-bottom: 30px;
 }
 
-.run_pic {
-  width: 310px;
-  height: 130px;
-  padding: 20px;
-}
-
-.small_pic {
-  width: 150px;
-  height: 80px;
-  padding: 20px;
-}
-*/
 .profile-image {
   width: 100%;
   border-radius: 50%;
@@ -140,15 +123,21 @@ body {
   justify-content: center;
 }
 
+.run_pic {
+  width: 300px;
+  height: 160px;
+  padding-top: 30px;
+}
+
 /*
-.box {
-  display: grid;
+.small_pic {
+  width: 150px;
+  height: 80px;
+  padding: 20px;
 }
 
 .box-link {
   margin: auto;
 } */
-
-/* blah blah */
 
 /* Website inspired by http://www.belcortes.com/ */

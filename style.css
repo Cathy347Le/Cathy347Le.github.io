@@ -27,81 +27,76 @@ body {
 
 .box1 {
   grid-area: box1;
-  border-bottom: 2px solid silver;
+  border-bottom: 1px solid silver;
 }
 
 .box2 {
   grid-area: box2;
-  border-left: 2px solid silver;
+  border-left: 1px solid silver;
 }
 
 .box3 {
   grid-area: box3;
-  /* border: 2px solid silver; */
 }
 
 .box4 {
   grid-area: box4;
-  border-top: 2px solid silver;
-  border-right: 2px solid silver;
+  border-top: 1px solid silver;
+  border-right: 1px solid silver;
 }
 
 .box5 {
   grid-area: box5;
-  border-left: 2px solid silver;
+  border-left: 1px solid silver;
 }
 
 .box6 {
   grid-area: box6;
-  border-top: 2px solid silver;
+  border-top: 1px solid silver;
 }
 
 .box7 {
   grid-area: box7;
-  border-right: 2px solid silver;
+  border-right: 1px solid silver;
 }
 
 .box8 {
   grid-area: box8;
-  border-right: 2px solid silver;
+  border-right: 1px solid silver;
 }
 
 .box9 {
   grid-area: box9;
-  /* border: 2px solid silver; */
 }
 
 .box10 {
   grid-area: box10;
-  border-top: 2px solid silver;
-  border-left: 2px solid silver;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
 }
 
 .box11 {
   grid-area: box11;
-  /* border: 2px solid silver; */
 }
 
 .box12 {
   grid-area: box12;
-  /* border: 2px solid silver; */
 }
 
 .box13 {
   grid-area: box13;
-  /* border: 2px solid silver; */
 }
 
 .box14 {
   grid-area: box14;
-  border-bottom: 2px solid silver;
-  border-right: 2px solid silver;
+  border-bottom: 1px solid silver;
+  border-right: 1px solid silver;
 }
 
 .box15 {
   grid-area: box15;
-  border-bottom: 2px solid silver;
-  border-left: 2px solid silver;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
 }
 
 .baseball_pic {
@@ -113,7 +108,7 @@ body {
 .profile-image {
   width: 100%;
   border-radius: 50%;
-  border: 5px solid gray;
+  border: 5px double gray;
   margin-bottom: 5px;
 }
 
@@ -135,5 +130,19 @@ body {
   height: 100px;
   padding: 10px;
 }
+/* 
+#firstName {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-left: 20px;
+}
+
+#lastName {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-right: 40px;
+} */
 
 /* Website inspired by http://www.belcortes.com/ */

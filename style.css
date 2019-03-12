@@ -99,8 +99,8 @@ body {
   border-left: 1px solid silver;
 }
 
-.baseball_pic {
-  width: 300px;
+.cherry-blossom_pic {
+  width: 250px;
   height: 160px;
   padding-bottom: 30px;
 }
@@ -119,12 +119,12 @@ body {
 }
 
 .run_pic {
-  width: 300px;
+  width: 250px;
   height: 160px;
   padding-top: 30px;
 }
 
-.cherry-blossom_pic,
+.baseball_pic,
 .tiger_pic {
   width: 130px;
   height: 100px;

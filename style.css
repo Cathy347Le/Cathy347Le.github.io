@@ -2,15 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: grid;
-  min-height: 100vh;
-}
-
-main {
-  height: 80%;
-}
-
 .container {
   width: 800px;
   height: 450px;
@@ -27,6 +18,12 @@ main {
     "box4 box4 box10 box10 box16 box16 box6 box6 box6 box6"
     "box11 box11 box12 box12 box7 box5 box6 box6 box6 box6"
     "box11 box11 box12 box12 box7 box5 box6 box6 box6 box6";
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box1 {
@@ -165,12 +162,6 @@ main {
   z-index: 1;
 }
 
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .run_pic {
   width: 270px;
   height: 180px;
@@ -185,9 +176,8 @@ main {
 }
 
 footer {
-  /* height: 10%; */
-  /* position: fixed; */
-  /* bottom: 5px; */
+  position: relative;
+  bottom: 10px;
   margin-left: 20px;
 }
 
@@ -199,20 +189,5 @@ footer {
 .favicons i {
   color: black;
 }
-
-/* 
-#firstName {
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 70px;
-  margin-left: 20px;
-}
-
-#lastName {
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 70px;
-  margin-right: 40px;
-} */
 
 /* Website inspired by http://www.belcortes.com/ */

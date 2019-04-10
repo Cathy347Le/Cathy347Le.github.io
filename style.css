@@ -6,6 +6,10 @@ body {
   max-height: 100vh;
 }
 
+main {
+  max-height: 55vh;
+}
+
 .container {
   width: 800px;
   height: 450px;

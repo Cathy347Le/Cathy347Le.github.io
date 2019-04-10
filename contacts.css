@@ -8,19 +8,14 @@ body {
 
 main {
   min-height: 92vh;
-}
-
-.form-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
-/* .form-container > div {
-  width: 300px;
-  height: 500px;
-} */
+.form-container {
+  text-align: center;
+}
 
 .formLabel {
   margin: 5px 0px;

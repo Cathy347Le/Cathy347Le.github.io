@@ -19,12 +19,12 @@
   <body>
     <main>
       <div class="form-container">
-        <form>
-          <h2>I love meeting new people</h2>
-          <p>
-            Feel free to email me at Cathy347Le@gmail.com or fill out the form
-            on this page.
-          </p>
+        <h2>I love meeting new people</h2>
+        <p>
+          Feel free to email me at Cathy347Le@gmail.com or fill out the form on
+          this page.
+        </p>
+        <form class="contact-form" action="contact.php" method="post">
           <div>
             <h5 class="formLabel">Name</h5>
             <input name="name" type="text" size="40" />
@@ -37,7 +37,7 @@
             <h5 class="formLabel">Message</h5>
             <textarea name="message" cols="40" rows="7"></textarea>
           </div>
-          <input class="button" type="submit" value="SEND" />
+          <input class="button" name="submit" type="submit" value="SEND" />
         </form>
       </div>
     </main>

@@ -18,27 +18,46 @@
 
   <body>
     <main>
-      <div class="form-container">
-        <h2>I love meeting new people</h2>
-        <p>
-          Feel free to email me at Cathy347Le@gmail.com or fill out the form on
-          this page.
-        </p>
+      <div class="contact-container">
+        <div class="contact-intro">
+          <h2 class="text-gradient">I love meeting new people</h2>
+          <h2>just say hello.</h2>
+          <p>
+            Feel free to email me at Cathy347Le@gmail.com or fill out the form
+            on this page. I’m always open to discussing new projects, creative
+            ideas or opportunities to be apart of your team.
+          </p>
+        </div>
         <form
           method="POST"
           action="https://formspree.io/cathy347oconnor@gmail.com"
         >
           <div>
-            <h5 class="formLabel">Name</h5>
-            <input name="name" type="text" size="40" required />
+            <input
+              name="name"
+              type="text"
+              size="42"
+              placeholder="Name"
+              required
+            />
           </div>
           <div>
-            <h5 class="formLabel">Email</h5>
-            <input name="email" type="text" size="40" required />
+            <input
+              name="email"
+              type="text"
+              size="42"
+              placeholder="E-mail"
+              required
+            />
           </div>
           <div>
-            <h5 class="formLabel">Message</h5>
-            <textarea name="message" cols="40" rows="7" required></textarea>
+            <textarea
+              name="message"
+              cols="40"
+              rows="7"
+              placeholder="Message"
+              required
+            ></textarea>
           </div>
           <input class="button" name="submit" type="submit" value="SEND" />
         </form>

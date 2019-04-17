@@ -24,18 +24,21 @@
           Feel free to email me at Cathy347Le@gmail.com or fill out the form on
           this page.
         </p>
-        <form class="contact-form" action="contactme.php" method="post">
+        <form
+          method="POST"
+          action="https://formspree.io/cathy347oconnor@gmail.com"
+        >
           <div>
             <h5 class="formLabel">Name</h5>
-            <input name="name" type="text" size="40" />
+            <input name="name" type="text" size="40" required />
           </div>
           <div>
             <h5 class="formLabel">Email</h5>
-            <input name="email" type="text" size="40" />
+            <input name="email" type="text" size="40" required />
           </div>
           <div>
             <h5 class="formLabel">Message</h5>
-            <textarea name="message" cols="40" rows="7"></textarea>
+            <textarea name="message" cols="40" rows="7" required></textarea>
           </div>
           <input class="button" name="submit" type="submit" value="SEND" />
         </form>

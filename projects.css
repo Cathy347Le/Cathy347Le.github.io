@@ -40,13 +40,63 @@ footer {
 }
 
 .project-info p {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+  transition: 0.4s ease-in-out;
+}
+
+*:before,
+*:after {
+  z-index: -1;
 }
 
 .button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
   text-decoration: none;
   border: 1px solid #32cd32;
   padding: 8px;
   margin: 0px 20px;
   color: #32cd32;
+}
+
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.button:before {
+  right: -50px;
+  border-right: 50px solid transparent;
+  border-bottom: 105px solid #228b22;
+  transform: translateX(-100%);
+}
+
+.button:after {
+  left: -50px;
+  border-left: 50px solid transparent;
+  border-top: 105px solid #228b22;
+  transform: translateX(100%);
+}
+
+.button:hover {
+  color: white;
+}
+
+.button:hover:before {
+  transform: translateX(-49%);
+}
+
+.button:hover:after {
+  transform: translateX(49%);
 }

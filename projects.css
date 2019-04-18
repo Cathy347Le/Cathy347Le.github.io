@@ -38,3 +38,15 @@ footer {
 .favicons i {
   color: black;
 }
+
+.project-info p {
+  margin-bottom: 40px;
+}
+
+.button {
+  text-decoration: none;
+  border: 1px solid #32cd32;
+  padding: 8px;
+  margin: 0px 20px;
+  color: #32cd32;
+}

@@ -6,9 +6,9 @@ body {
   max-height: 100vh;
 }
 
-main {
-  max-height: 55vh;
-}
+/* main {
+  max-height: 70vh;
+} */
 
 .container {
   width: 800px;
@@ -102,6 +102,7 @@ main {
   grid-area: box14;
   border-bottom: 1px solid silver;
   border-right: 1px solid silver;
+  /* margin-bottom: 10px */
 }
 
 .box15 {
@@ -148,8 +149,8 @@ main {
 }
 
 .name {
-  margin: 0px;
-  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .title {

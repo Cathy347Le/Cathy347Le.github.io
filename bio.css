@@ -19,31 +19,33 @@ main > div {
   justify-content: center;
 }
 
-.bio-info {
+.bio-content {
   padding: 100px;
 }
-/* * {
-  box-sizing: border-box;
+
+.skills-content {
+  margin: 0 auto;
+  width: 90%;
+  height: 70px;
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-body {
-  margin: 0px;
+h3 {
+  text-align: center;
 }
 
-.bio-container {
-  display: flex;
+.skills-content > div {
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 13px;
 }
 
-img {
-  max-height: 760px;
-} */
-
-/* h3 {
-  margin-bottom: 0px;
-} */
-/* .bio-description {
-  padding: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
+.mongodb-image,
+.django-image {
+  width: 50%;
+}
+.express-image {
+  width: 85%;
+}

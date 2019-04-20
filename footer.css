@@ -1,0 +1,14 @@
+footer {
+  position: relative;
+  margin-left: 30px;
+}
+
+.favicons {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.favicons i {
+  color: black;
+}

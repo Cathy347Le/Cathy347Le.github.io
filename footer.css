@@ -1,14 +1,15 @@
-.footer-content {
-  position: relative;
-  margin-left: 30px;
+.footer-container {
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
 }
 
-.favicons {
-  float: right;
-  margin-right: 30px;
-  margin-bottom: 20px;
+h5 {
+  font-weight: normal;
 }
 
 .favicons i {
-  color: orange;
+  color: #2d2b2b;
 }

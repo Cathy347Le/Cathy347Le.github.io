@@ -46,11 +46,11 @@ h1 {
 .mongodb-image,
 .django-image {
   width: 50%;
-  margin-top: 15%;
+  margin-top: 6px;
 }
 .express-image {
   width: 85%;
-  margin-top: 19%;
+  margin-top: 10px;
 }
 
 .bg-1 {
@@ -61,7 +61,7 @@ h1 {
   background-color: #b10dc9;
 }
 
-span {
+.skills-content span {
   color: white;
 }
 

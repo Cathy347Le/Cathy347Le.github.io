@@ -6,13 +6,9 @@ body {
   max-height: 100vh;
 }
 
-/* main {
-  max-height: 70vh;
-} */
-
 .container {
   width: 800px;
-  height: 450px;
+  height: 420px;
   margin: 10% auto;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -102,7 +98,6 @@ body {
   grid-area: box14;
   border-bottom: 1px solid silver;
   border-right: 1px solid silver;
-  /* margin-bottom: 10px */
 }
 
 .box15 {
@@ -113,7 +108,6 @@ body {
 
 .box16 {
   grid-area: box16;
-  /* border: 1px solid silver; */
 
   display: flex;
   flex-direction: column;
@@ -184,20 +178,7 @@ body {
   padding: 10px;
 }
 
-footer {
-  position: relative;
-  margin-left: 30px;
-}
 
-.favicons {
-  float: right;
-  margin-right: 30px;
-  margin-bottom: 20px;
-}
-
-.favicons i {
-  color: black;
-}
 
 /* Website inspired by http://www.belcortes.com/ */
 /* button hover effects by https://codepen.io/kjbrum/pen/wBBLXx

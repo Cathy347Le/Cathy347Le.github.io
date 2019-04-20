@@ -1,10 +1,13 @@
-/* body {
-  background-image: url("Wood_bg.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
 } */
 
 main {
+  /* min-height: 92vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,11 +46,11 @@ h1 {
 .mongodb-image,
 .django-image {
   width: 50%;
-  margin-top: 6%;
+  margin-top: 15%;
 }
 .express-image {
   width: 85%;
-  margin-top: 10%;
+  margin-top: 19%;
 }
 
 .bg-1 {
@@ -62,6 +65,6 @@ span {
   color: white;
 }
 
-.fab {
+.skills-content .fab {
   margin-top: 15%;
 }

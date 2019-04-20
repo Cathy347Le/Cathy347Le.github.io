@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $("#footer").load("footer.html");
+      });
+    </script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -64,18 +70,7 @@
       </div>
     </main>
     <footer>
-      &copy; 2019 Designed by Cathy Le
-      <div class="favicons">
-        <a href="https://www.linkedin.com/in/cathyxle/"
-          ><i class="fab fa-linkedin fa-2x"></i
-        ></a>
-        <a href="https://github.com/Cathy347Le"
-          ><i class="fab fa-github-square fa-2x"></i
-        ></a>
-        <a href="mailto: Cathy347Le@gmail.com"
-          ><i class="fas fa-envelope-square fa-2x"></i
-        ></a>
-      </div>
+      <div id="footer"></div>
     </footer>
   </body>
 </html>

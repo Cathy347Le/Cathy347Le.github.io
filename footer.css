@@ -1,4 +1,4 @@
-footer {
+.footer-content {
   position: relative;
   margin-left: 30px;
 }
@@ -10,5 +10,5 @@ footer {
 }
 
 .favicons i {
-  color: black;
+  color: orange;
 }

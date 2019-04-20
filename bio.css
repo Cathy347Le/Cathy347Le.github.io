@@ -24,10 +24,7 @@ main > div {
 }
 
 .skills-content {
-  margin: 0 auto;
-  width: 90%;
-  height: 70px;
-  border: 1px solid gray;
+  height: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -37,7 +34,6 @@ h3 {
 }
 
 .skills-content > div {
-  border: 1px solid gray;
   text-align: center;
   font-size: 13px;
 }
@@ -45,7 +41,25 @@ h3 {
 .mongodb-image,
 .django-image {
   width: 50%;
+  margin-top: 6%;
 }
 .express-image {
   width: 85%;
+  margin-top: 10%;
+}
+
+.bg-1 {
+  background-color: #39cccc;
+}
+
+.bg-2 {
+  background-color: #b10dc9;
+}
+
+span {
+  color: white;
+}
+
+.fab {
+  margin-top: 15%;
 }

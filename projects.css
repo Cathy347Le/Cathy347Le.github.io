@@ -40,8 +40,12 @@ main {
 }
 
 h1 {
-  color: blue;
   text-align: center;
+  font-family: "Carter One", cursive;
+}
+
+h2 {
+  font-family: "Handlee", cursive;
 }
 
 img {

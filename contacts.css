@@ -15,7 +15,7 @@ main {
 
 .contact-container {
   display: flex;
-  height: 450px;
+  height: 400px;
 }
 
 .contact-intro {
@@ -26,6 +26,7 @@ main {
 h2 {
   margin: 0px;
   font-size: 30px;
+  line-height: 32px;
 }
 
 .text-gradient {
@@ -36,8 +37,9 @@ h2 {
 
 p {
   color: #696969;
-  margin-top: 35px;
+  margin-top: 20px;
   font-size: 15px;
+  font-family: "Handlee", cursive;
 }
 
 form {

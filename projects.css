@@ -6,10 +6,32 @@ main {
 .project-container {
   display: flex;
   margin: 0px 100px;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+  /* border-top: 1px solid lightgray; */
+  /* border-bottom: 1px solid lightgray; */
   align-items: center;
   height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.project-container:before {
+  right: -500px;
+  border-right: 500px solid transparent;
+  border-bottom: 300px solid #f2f2f2;
+  transform: translateX(-100%);
+}
+
+.project-container:hover:before {
+  transform: translateX(0);
 }
 
 .project-info {
@@ -58,8 +80,8 @@ img {
   content: "";
   position: absolute;
   top: 0;
-  bottom: 0;
   right: 0;
+  bottom: 0;
   left: 0;
 }
 

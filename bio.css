@@ -26,6 +26,15 @@ main > div {
   padding: 100px;
 }
 
+.bio-content a {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.bio-content a:hover {
+  text-decoration: underline;
+}
+
 .skills-content {
   height: 80px;
   display: grid;
@@ -35,7 +44,8 @@ main > div {
 h1 {
   text-align: center;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 0;
+  font-family: "Handlee", cursive;
 }
 
 .skills-content > div {

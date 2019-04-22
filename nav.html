@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo:700|Handlee"
+      rel="stylesheet"
+    />
+    <link href="nav.css" rel="stylesheet" type="text/css" />
+    <title>Nav</title>
+  </head>
+  <body>
+    <div class="nav-burger">
+      <a
+        class="dropdown-trigger btn grey lighten-3"
+        href="#"
+        data-target="dropdown1"
+        ><i class="material-icons">menu</i></a
+      >
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="index.html" class="black-text">Home</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="bio.html" class="black-text">About Me</a></li>
+        <li><a href="projects.html" class="black-text">Projects</a></li>
+        <li>
+          <a
+            href="https://drive.google.com/open?id=1_YwIFtCMRU5l-qra7xNsj6vsGZ7-QzgX"
+            class="black-text"
+            >Resume</a
+          >
+        </li>
+        <li><a href="contacts.html" class="black-text">Contact</a></li>
+      </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(".dropdown-trigger").dropdown({ constrainWidth: false });
+    </script>
+  </body>
+</html>

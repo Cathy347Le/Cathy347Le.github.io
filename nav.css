@@ -1,0 +1,16 @@
+.nav-burger {
+  margin: 20px;
+}
+
+.btn {
+  padding: 0 10px;
+}
+
+.btn i {
+  font-size: 30px;
+  color: black;
+}
+
+.dropdown-content a {
+  font-family: "Handlee", cursive;
+}

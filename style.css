@@ -209,6 +209,18 @@ body {
           transform: rotate(10deg);
 }
 
+.bw-pic {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.bw-pic:hover {
+  -webkit-filter: grayscale(100%);
+}
+
 
 /* Website inspired by http://www.belcortes.com/ */
 /* button hover effects by https://codepen.io/kjbrum/pen/wBBLXx
+/* image hover effects by https://designshack.net/articles/css/joshuajohnson-2/

@@ -8,6 +8,7 @@
     <script>
       $(function() {
         $(".footer-content").load("footer.html");
+        $(".menu-nav").load("menu-nav.html");
       });
     </script>
     <link
@@ -33,26 +34,8 @@
     <link rel="icon" href="baseball_favicon.ico" />
   </head>
   <body>
-    <div class="nav-burger">
-      <a
-        class="dropdown-trigger btn grey lighten-3"
-        href="#"
-        data-target="dropdown1"
-        ><i class="material-icons">menu</i></a
-      >
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="index.html" class="black-text">Home</a></li>
-        <li><a href="bio.html" class="black-text">About Me</a></li>
-        <li><a href="projects.html" class="black-text">Projects</a></li>
-        <li>
-          <a
-            href="https://drive.google.com/open?id=1g1n0bcoEvEsoFNGlybACTCoYY6xs2h8Q"
-            class="black-text"
-            >Resume</a
-          >
-        </li>
-        <li><a href="contacts.html" class="black-text">Contact</a></li>
-      </ul>
+    <div>
+      <div class="menu-nav"></div>
     </div>
     <main>
       <div class="container">
@@ -98,7 +81,7 @@
         <div class="box box12">
           <a
             class="box-link"
-            href="https://drive.google.com/open?id=1g1n0bcoEvEsoFNGlybACTCoYY6xs2h8Q"
+            href="https://drive.google.com/open?id=1_YwIFtCMRU5l-qra7xNsj6vsGZ7-QzgX"
             >Resume</a
           >
         </div>
@@ -124,9 +107,5 @@
     <footer>
       <div class="footer-content"></div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      $(".dropdown-trigger").dropdown({ constrainWidth: false });
-    </script>
   </body>
 </html>

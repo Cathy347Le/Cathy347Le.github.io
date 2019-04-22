@@ -8,7 +8,7 @@
     <script>
       $(function() {
         $(".footer-content").load("footer.html");
-        $(".menu-nav").load("menu-nav.html");
+        $("#nav-content").load("nav.html");
       });
     </script>
     <link
@@ -21,14 +21,13 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-
     <link href="contacts.css" rel="stylesheet" type="text/css" />
     <title>Contact Cathy</title>
     <link rel="icon" href="baseball_favicon.ico" />
   </head>
   <body>
     <div>
-      <div class="menu-nav"></div>
+      <div id="nav-content"></div>
     </div>
     <main>
       <div class="contact-container">
@@ -79,5 +78,6 @@
     <footer>
       <div class="footer-content"></div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>

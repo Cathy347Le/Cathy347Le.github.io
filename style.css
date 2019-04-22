@@ -221,31 +221,6 @@ body {
   -webkit-filter: grayscale(100%);
 }
 
-.nav-burger{
-  margin: 20px;
-}
- 
-.btn {
-  padding: 0 10px;
-}
-
-.btn i{
-  font-size: 30px;
-  color: black;
-}
-
-.dropdown-content a {
-  font-family: 'Handlee', cursive;
-}
-
-/* .dropdown-content a { 
-  color: black;
-} */
-
-/* li {
-  color: black;
-} */
-
 /* Website inspired by http://www.belcortes.com/ */
 /* button hover effects by https://codepen.io/kjbrum/pen/wBBLXx
 /* image hover effects by https://designshack.net/articles/css/joshuajohnson-2/

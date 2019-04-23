@@ -4,54 +4,33 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-.dropdown-trigger {
+/* .dropdown-trigger {
   cursor: pointer;
-}
+} */
 
 .btn,
 .dropdown-content {
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.btn,
-.btn-large,
-.btn-small,
-.btn-flat {
+.btn {
   border: none;
   border-radius: 2px;
   display: inline-block;
   height: 36px;
   line-height: 36px;
   padding: 0 16px;
-  text-transform: uppercase;
   vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
 }
 
-.btn,
-.btn-large,
-.btn-small,
-.btn-floating,
-.btn-large,
-.btn-small,
-.btn-flat {
+.btn {
   font-size: 14px;
   outline: 0;
-}
-
-.btn,
-.btn-large,
-.btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
   text-align: center;
   letter-spacing: 0.5px;
-  -webkit-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
   cursor: pointer;
 }
 
@@ -70,8 +49,8 @@
   left: 0;
   top: 0;
   z-index: 9999;
-  -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
+  outline: none;
 }
 
 ul:not(.browser-default) {
@@ -89,35 +68,32 @@ ul:not(.browser-default) {
   text-align: left;
 }
 
-.dropdown-content li > a,
-.dropdown-content li > span {
+.dropdown-content li > a {
   font-size: 16px;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
 }
 
-a {
+.dropdown-content a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   background-color: transparent;
   cursor: pointer;
 }
 
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
 .black-text {
   color: #000000 !important;
 }
 
-.divider {
-  height: 1px;
-  overflow: hidden;
-  background-color: #e0e0e0;
-}
-
-html {
+/* html {
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
-}
+} */

@@ -4,9 +4,10 @@
 
 html,
 body {
-  height: 100%;
+  /* min-height: 120%; */
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 nav {
@@ -14,8 +15,10 @@ nav {
 }
 
 main {
+  /* height: 80%; */
   display: flex;
   flex-direction: column;
+  /* margin-bottom: 100px; */
 }
 
 .project-container {
@@ -130,4 +133,12 @@ img {
 
 .button:hover:after {
   transform: translateX(49%);
+}
+
+.footer-in-projects {
+  height: 100px;
+}
+
+.placeholder-container {
+  height: 100px;
 }

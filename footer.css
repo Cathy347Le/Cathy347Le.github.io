@@ -1,9 +1,14 @@
 .footer-container {
   display: flex;
-  width: 97%;
+  width: 95%;
   justify-content: space-between;
-  margin: 0 auto;
-  align-items: center;
+  /* margin: 0 auto; */
+  margin-left: 2.5%;
+  /* margin-right: 40px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-container h4 {

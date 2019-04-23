@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script>
       $(function() {
-        $(".footer-content").load("footer.html");
+        $("#footer-content").load("footer.html");
         $("#nav-content").load("nav.html");
       });
     </script>
@@ -26,9 +26,9 @@
     <link rel="icon" href="baseball_favicon.ico" />
   </head>
   <body>
-    <div>
+    <nav>
       <div id="nav-content"></div>
-    </div>
+    </nav>
     <main>
       <div class="contact-container">
         <div class="contact-intro">
@@ -76,7 +76,7 @@
       </div>
     </main>
     <footer>
-      <div class="footer-content"></div>
+      <div id="footer-content"></div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>

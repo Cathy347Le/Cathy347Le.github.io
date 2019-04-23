@@ -186,7 +186,7 @@ body {
 
 .box-link:hover {
   text-decoration: underline;
-  /* color: blue */
+  color: blue;
 }
 
 .tilt-pic {

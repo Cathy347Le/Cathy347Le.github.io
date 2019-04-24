@@ -142,3 +142,8 @@ img {
 .placeholder-container {
   height: 100px;
 }
+
+.btn-disable {
+  cursor: url("http://icons.iconarchive.com/icons/tatice/cristal-intense/24/Ad-Aware-icon.png"),
+    auto;
+}

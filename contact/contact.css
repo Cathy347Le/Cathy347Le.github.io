@@ -54,15 +54,16 @@ form {
   justify-content: center;
 }
 
-input {
+input,
+textarea {
   margin-bottom: 20px;
+  font-size: 12px;
 }
 
 .button {
   color: white;
   background-color: #ff0000;
   margin: 0 auto;
-  margin-top: 20px;
   border-radius: 5px;
   height: 30px;
   width: 50px;

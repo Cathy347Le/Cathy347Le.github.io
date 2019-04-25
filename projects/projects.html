@@ -7,8 +7,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script>
       $(function() {
-        $(".footer-content").load("footer.html");
-        $("#nav-content").load("nav.html");
+        $("#footer-content").load("../footer/footer.html");
+        $("#nav-content").load("../nav/nav.html");
       });
     </script>
     <link
@@ -22,6 +22,8 @@
       crossorigin="anonymous"
     />
     <link href="projects.css" rel="stylesheet" type="text/css" />
+    <link href="../footer/footer.css" rel="stylesheet" type="text/css" />
+    <link href="../nav/materialize.css" rel="stylesheet" type="text/css" />
     <title>Cathy's Projects</title>
     <link rel="icon" href="../images/baseball_favicon.ico" />
   </head>
@@ -146,7 +148,7 @@
       <div class="placeholder-container"></div>
     </main>
     <footer>
-      <div class="footer-content"></div>
+      <div id="footer-content"></div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>

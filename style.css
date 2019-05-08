@@ -232,10 +232,8 @@ nav {
 }
 
 @media screen and (max-width: 540px) {
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  main {
+    margin-top: 30%;
   }
   .container {
     width: 350px;

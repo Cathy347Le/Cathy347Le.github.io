@@ -232,9 +232,14 @@ nav {
 }
 
 @media screen and (max-width: 540px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .container {
-    width: 400px;
-    height: 210px;
+    width: 350px;
+    height: 190px;
   }
   .cherry-blossom_pic,
   .run_pic {

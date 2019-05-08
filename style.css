@@ -230,3 +230,29 @@ nav {
 .bw-pic:hover {
   -webkit-filter: grayscale(100%);
 }
+
+@media screen and (max-width: 540px) {
+  .container {
+    width: 400px;
+    height: 210px;
+  }
+  .cherry-blossom_pic,
+  .run_pic {
+    width: 135px;
+    height: 75px;
+  }
+
+  .baseball_pic,
+  .tiger_pic {
+    width: 60px;
+    height: 45px;
+  }
+  .name {
+    line-height: 13px;
+    font-size: 12px;
+  }
+  .box-link,
+  .title {
+    font-size: 9px;
+  }
+}

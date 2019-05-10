@@ -258,4 +258,12 @@ nav {
   .title {
     font-size: 9px;
   }
+  .box2,
+  .box8 {
+    height: 50px;
+  }
+  .box17,
+  .box18 {
+    height: 40px;
+  }
 }

@@ -14,3 +14,8 @@
 .favicons i {
   color: #2d2b2b;
 }
+
+@media screen and (max-width: 540px) {
+  .fa-2x {
+    font-size: 1rem;
+  }

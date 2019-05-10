@@ -17,8 +17,8 @@
 }
 
 @media screen and (max-width: 540px) {
-  .fa-2x {
-    font-size: 1em;
+  .favicons {
+    font-size: 10px;
   }
   .footer-container h4 {
     font-size: 11px;

@@ -18,9 +18,9 @@
 
 @media screen and (max-width: 540px) {
   .fa-2x {
-    font-size: 1rem;
+    font-size: 1em;
   }
   .footer-container h4 {
-    font-size: 8px;
+    font-size: 11px;
   }
 }

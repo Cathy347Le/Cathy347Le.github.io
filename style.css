@@ -231,6 +231,43 @@ nav {
   -webkit-filter: grayscale(100%);
 }
 
+@media screen and (max-width: 840px) {
+  main {
+    margin-top: 35%;
+  }
+  .container {
+    width: 550px;
+    height: 290px;
+  }
+  .cherry-blossom_pic,
+  .run_pic {
+    width: 180px;
+    height: 100px;
+  }
+
+  .baseball_pic,
+  .tiger_pic {
+    width: 90px;
+    height: 68px;
+  }
+  .name {
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .box-link,
+  .title {
+    font-size: 14px;
+  }
+  .box2,
+  .box8 {
+    height: 75px;
+  }
+  .box17,
+  .box18 {
+    height: 60px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   main {
     margin-top: 35%;

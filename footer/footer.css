@@ -15,11 +15,16 @@
 .favicons i {
   color: #2d2b2b;
 }
+/* 
+@media screen and (max-width: 840px) {
+  .favicons,
+  .footer-container h4 {
+    font-size: 15px;
+  }
+} */
 
 @media screen and (max-width: 540px) {
-  .favicons {
-    font-size: 10px;
-  }
+  .favicons,
   .footer-container h4 {
     font-size: 11px;
   }

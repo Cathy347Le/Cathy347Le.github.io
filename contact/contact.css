@@ -48,12 +48,6 @@ p {
   font-family: "Handlee", cursive;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 input,
 textarea {
   margin-bottom: 20px;

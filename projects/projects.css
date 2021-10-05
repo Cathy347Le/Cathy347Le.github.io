@@ -27,7 +27,7 @@ main {
   overflow: hidden;
 }
 
-.project-container:before {
+/* .project-container:before {
   content: "";
   position: absolute;
   top: 0;
@@ -45,7 +45,7 @@ main {
 
 .project-container:hover:before {
   transform: translateX(0);
-}
+} */
 
 .project-info {
   margin: 40px 100px;
@@ -63,7 +63,7 @@ h2 {
 }
 
 img {
-  width: 450px;
+  max-width: 450px;
   margin-left: 30px;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

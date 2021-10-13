@@ -62,3 +62,56 @@ textarea {
   height: 30px;
   width: 50px;
 }
+
+/* body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+} */
+
+form {
+  position: relative;
+}
+
+form input {
+  border: 1px solid gray;
+  border-radius: 20px;
+  outline: none;
+  height: 40px;
+  padding: 0 10px;
+}
+
+form input:focus {
+  border: 1px solid teal;
+}
+
+form button {
+  position: absolute;
+  height: 40px;
+  top: 0px;
+  right: 0px;
+  padding: 0 14px;
+  background-color: transparent;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+}
+
+form button svg {
+  height: 16px;
+}
+
+form button:hover {
+  background-color: teal;
+}
+
+form button:hover svg path {
+  fill: white;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
